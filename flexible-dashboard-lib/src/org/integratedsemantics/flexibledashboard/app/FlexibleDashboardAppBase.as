@@ -99,7 +99,7 @@ package org.integratedsemantics.flexibledashboard.app
 		{
 			// Load pods.xml, which contains the pod layout.
 			var httpService:HTTPService = new HTTPService();
-			httpService.url = "data/flexibleDashboardPods.xml";
+			httpService.url = "data/flexibleDashboardPodsAll.xml";
 			httpService.resultFormat = "e4x";
 			httpService.addEventListener(FaultEvent.FAULT, onFaultHttpService);
 			httpService.addEventListener(ResultEvent.RESULT, onResultHttpService);

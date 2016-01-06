@@ -24,14 +24,28 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>[source path] flexible-dashboard-assets-runtime-src</name>
+			<name>[source path] FLEX_DASHBOARD_ASSETS_RUN-src</name>
 			<type>2</type>
-			<locationURI>DOCUMENTS/flexible-dashboard-assets-runtime/src</locationURI>
+			<locationURI>FLEX_DASHBOARD_ASSETS_RUN/src</locationURI>
 		</link>
 		<link>
-			<name>[source path] flexible-dashboard-pod-modules-src</name>
+			<name>[source path] FLEX_DASHBOARD_POD_MODULES-src</name>
 			<type>2</type>
-			<locationURI>DOCUMENTS/flexible-dashboard-pod-modules/src</locationURI>
+			<locationURI>FLEX_DASHBOARD_POD_MODULES/src</locationURI>
 		</link>
 	</linkedResources>
+	<variableList>
+		<variable>
+			<name>FLEX_DASHBOARD_ASSETS_RUN</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/flexible-dashboard-assets-runtime</value>
+		</variable>
+		<variable>
+			<name>FLEX_DASHBOARD_LIB</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/flexible-dashboard-lib</value>
+		</variable>
+		<variable>
+			<name>FLEX_DASHBOARD_POD_MODULES</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/flexible-dashboard-pod-modules</value>
+		</variable>
+	</variableList>
 </projectDescription>

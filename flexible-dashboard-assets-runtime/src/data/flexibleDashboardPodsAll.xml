@@ -151,9 +151,9 @@ stored in this file rather than a database or separate XML files.
         <pod
             id="html1"
             type="html"
-            title="Bing"
+            title="PK Drive"
             module="org/integratedsemantics/flexibledashboard/html/IFramePod.swf"
-            url="http://www.bing.com" />  
+            url="http://drive.f-project.net/" />  
         <pod
             id="html2"
             type="html"

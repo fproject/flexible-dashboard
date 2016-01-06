@@ -119,7 +119,7 @@ stored in this file rather than a database or separate XML files.
             /-->
     </view>   
     
-   <!--view
+   <view
       id="viewBIRT"
       label="BIRT">
         <pod
@@ -130,7 +130,7 @@ stored in this file rather than a database or separate XML files.
             url="http://localhost:8400/birt-viewer/"
             report="SalesInvoice.rptdesign"
             />  
-   </view--> 
+   </view> 
    
    <view
       id="viewGrid"

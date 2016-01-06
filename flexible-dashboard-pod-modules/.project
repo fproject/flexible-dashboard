@@ -19,4 +19,10 @@
 		<nature>com.adobe.flexbuilder.project.flexnature</nature>
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>FLEX_DASHBOARD_LIB</name>
+			<value>$%7BPARENT-1-PROJECT_LOC%7D/flexible-dashboard-lib</value>
+		</variable>
+	</variableList>
 </projectDescription>
